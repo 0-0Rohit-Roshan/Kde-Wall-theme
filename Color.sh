@@ -25,3 +25,4 @@ rm ../wallpaper.sh
 #Add more dynamicity in script to rename all jpg file in the directory to intiger to avoid incompatibility at tr command (check if a single renaming script can be run in multiple diectory by the main script.)
 #Try to do it for Konsole.
 #Acces it from any directory.
+#Add a for loop to check and rename file.
