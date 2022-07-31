@@ -21,9 +21,9 @@ notify-send "wallpaper set as $img and appropriate terminal color applied"
 
 rm ~/wallpaper.sh
 
-#Todo
-#Move the wallpapers to the windows file system.
-#Add more dynamicity in script to rename all jpg file in the directory to intiger to avoid incompatibility at tr command (check if a single renaming script can be run in multiple diectory by the main script.)
+#Todo 
+#Move the wallpapers to the windows file system.(Done)
+#Add more dynamicity in script to rename all jpg file in the directory to intiger to avoid incompatibility at tr command (check if a single renaming script can be run in multiple diectory by the main script.) (partialy Done)
 #Try to do it for Konsole.
 #Acces it from any directory.
 #Add a for loop to check and rename file.
