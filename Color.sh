@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd Pictures/
+cd ../../run/media/miku/File/wallpaper/
 
 source "RenameToIntiger.sh"
 img=$(sxiv *.jpg -o -q)
@@ -9,16 +9,17 @@ wal -i=$img -b=#000000 -n -q
 
 #imgpath=/home/miku/Pictures/$img
 
-cat ../Wallpaper.sh |tr 12345678 $img >../wallpaper.sh
+cd ~
+cat ~/Wallpaper.sh |tr 12345678 $img >~/wallpaper.sh
 #echo "Your imgpath = $imgpath"
 #cp -f ../Wallpaper.sh ../wallpaper.sh
 #cat ../wallpaper.sh
 
-source "../wallpaper.sh"
+source "wallpaper.sh"
 
 notify-send "wallpaper set as $img and appropriate terminal color applied"
 
-rm ../wallpaper.sh
+rm ~/wallpaper.sh
 
 #Todo
 #Move the wallpapers to the windows file system.
